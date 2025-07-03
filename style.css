@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar img{
+    height: 60px;
+    width: 90px;
+    position: relative;
+    right:60px;
+    margin: 20px;
+}
+.nav-bar{
+    height: 80px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    background-color: dodgerblue;
+}
+a{
+    padding-right: 50px;
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:black;
+}
+.login button{
+    width: 70px;
+    height:35px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.banner{
+    height:450px;
+    background-color: skyblue;
+    margin-top:-1px;
+}
+.banner img{
+    height: 450px;
+    width:100%;
+}
+.banner span{
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.form{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 850px;
+}
+#bys{
+    font-size: x-large;
+}
+.form .category{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+#click-here {
+   color:crimson;
+   padding-left: 40px;
+   cursor: pointer;
+}
+.book-now{
+    width:70%;
+    height:30px;
+    border-radius: 10px;
+    background-color:tomato;
+    cursor: pointer;
+}
+input.main{
+    width:90%;
+    height:25px;
+}
+select{
+    width: 20%;
+    height:28px;
+    border-radius: 5px;
+}
+.phone input{
+    width:160px;
+    height: 25px;
+}
+.ad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.ad div{
+    font-size: medium;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.card-container{
+    width: 250px;
+    height:300px;
+    border:1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    
+}
+.card-container .top{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px 10px 5px 5px;
+}
+.card-container .top{
+    background-color: lightblue;
+}
+.card-container .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card-container .center{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer{
+    width: 100%;
+    height:400px;
+    background-color:darkslateblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+footer .navigation{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer .blogs{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer .social{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer .marketing{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#chat{
+    width: 70px;
+    height: 70px;
+    border: 1px solid ;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    left: 90%;
+    cursor: pointer;
+}
